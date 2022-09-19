@@ -7,7 +7,7 @@
 
 :slightly_smiling_face:
 
-:[jojo](jojo.jpg):
+![jojo](jojo.jpg"JOJO")
 
 
 
