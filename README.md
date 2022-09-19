@@ -25,7 +25,72 @@
 - [ ] todo list
 - [x] done
 
+
+
+
+
+
+
+
+
+
+
+
+
+|Left-Aligned|Center Aligned|Right Aligned|
+|:-----------|:------------:|-----------:|
+|col 3 is|right-aligned|$1600|
+|col 2 is|Centered|$12|
+|zeber stipes|are neat|$1|
+
+
+
+
+
+
+- [ ] todo list
+- [ ] 2nd things
+
+Python
 ```python
 s="Python Syntax Highlighting"
+print s
 ```
+
+JavaScript
+```js
+var s="JavaScript Syntax Highlighting";
+alert (s);
+```
+
+|Left-Aligned|Center Aligned|Right Aligned|
+|:-----------|:------------:|-----------:|
+|col 3 is|right-aligned|$1600|
+|col 2 is|Centered|$12|
+|zeber stipes|are neat|$1|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
