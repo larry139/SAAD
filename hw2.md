@@ -17,8 +17,7 @@ gantt
     使用者測試:a11, after a9 a10,25d
 ```
 
-
-## PERT/CPM 圖和關鍵路徑:
+## PERT/CPM 圖:
 ![image](https://user-images.githubusercontent.com/73732895/193543481-dc52a09d-8ebc-4e40-8692-ab524c0eb736.png)
 ```graphviz
 digraph {
@@ -59,10 +58,9 @@ digraph {
     {rank=same;no9 no10}
     no9->no11
     no10->no11
-
 }
-
 ```
-## 關鍵節點:
+
+## 關鍵路徑:
 1 -> 2 -> 4 -> 6 -> 9 -> 11
 
