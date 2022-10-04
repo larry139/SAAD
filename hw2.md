@@ -18,7 +18,7 @@ gantt
 ```
 
 ## PERT/CPM 圖:
-![image](https://user-images.githubusercontent.com/73732895/193543481-dc52a09d-8ebc-4e40-8692-ab524c0eb736.png)
+![image](https://user-images.githubusercontent.com/73732895/193826490-72efa3ae-efa1-46be-aa0c-c82120c0d766.png)
 ```graphviz
 digraph {
 	node[shape=record];
@@ -40,16 +40,16 @@ digraph {
     no6 [label = "任務:6 | 程式測試 | 開始:第76天 | 結束:第105天 "]
     no4->no6
     
-    no7 [label = "任務:7 | 撰寫使用手冊 | 開始:第29天 | 結束:第33天 "]
+    no7 [label = "任務:7 | 撰寫使用手冊 | 開始:第29天 | 結束:第53天 "]
     no5->no7
     
-    no8 [label = "任務:8 | 轉換檔案 | 開始:第29天 | 結束:第58天 "]
+    no8 [label = "任務:8 | 轉換檔案 | 開始:第29天 | 結束:第48天 "]
     no5->no8
     
     no9 [label = "任務:9 | 系統測試 | 開始:第106天 | 結束:第130天 "]
     no6->no9
     
-    no10 [label = "任務:10 | 使用者訓練 | 開始:第59天 | 結束:第78天 "]
+    no10 [label = "任務:10 | 使用者訓練 | 開始:第54天 | 結束:第73天 "]
     {rank=same;no7 no8}
     no7->no10
     no8->no10
@@ -58,7 +58,9 @@ digraph {
     {rank=same;no9 no10}
     no9->no11
     no10->no11
+
 }
+
 ```
 
 ## 關鍵路徑:
