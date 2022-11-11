@@ -99,7 +99,7 @@ raw Markdown line up prettily. You can also use inline Markdown.
 
 
 
-
+```mermaid
 gantt
     title 系統分析流程
     dateFormat  MM-DD
@@ -111,7 +111,7 @@ gantt
     整合性軟體開發系統的測試 : a5,  15d
     系統驗收、教育訓練與系統安裝 : a6,  70d
     技術文件及報告撰寫 : a7,  4d
-
+```
 
 
 
