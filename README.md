@@ -100,6 +100,19 @@ raw Markdown line up prettily. You can also use inline Markdown.
 
 
 
+gantt
+    title 系統分析流程
+    dateFormat  MM-DD
+    section 任務
+    蒐集整合性軟體開發系統設計之相關資訊 : a1, 09-19, 7d
+    整合性軟體開發系統功能需求分析 : a2,  4d
+    整合性軟體開發系統的設計 : a3,  30d
+    整合性軟體開發系統程式設計 : a4,  4d
+    整合性軟體開發系統的測試 : a5,  15d
+    系統驗收、教育訓練與系統安裝 : a6,  70d
+    技術文件及報告撰寫 : a7,  4d
+
+
 
 
 
